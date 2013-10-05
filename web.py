@@ -7,7 +7,6 @@ def index():
 
 @app.route("/markdown", methods = ['POST'])
 def markdown():
-    print request.form
     import markdown2
     extras = []
     if request.form['code'] == 'true':
