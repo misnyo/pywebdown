@@ -1,0 +1,19 @@
+#markdown{
+    margin:10px 0 0 9%;
+    padding:0;
+    width:40%;
+    display:block;
+    height:500px;
+    float:left;
+    border:1px solid red;
+}
+
+#content{
+    margin:10px 9% 0 0;
+    padding:0;
+    width:40%;
+    display:block;
+    height:500px;
+    float:right;
+    border:1px solid red;
+}

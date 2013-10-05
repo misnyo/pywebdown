@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>PyWebDown</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/static/pywebdown.js"></script>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <link rel="stylesheet" type="text/css" href="/static/pygment.css">
+    </head>
+    <body>
+        <p>
+            <a href="http://daringfireball.net/projects/markdown/syntax">markdown syntax</a>
+        </p>
+        <p>Code highlighting: 
+            <input type="checkbox" id="code" checked="checked"/>
+            <a href="https://help.github.com/articles/github-flavored-markdown">code syntax</a>&nbsp;
+            <a href="/static/pygment.css">download css</a></p>
+        <p>Html code: <input type="checkbox" id="html-code" /></p>
+        <textarea id="markdown">
+```python
+print 'Hello world'
+```
+        </textarea>
+        <div id="content">
+        </div>
+    </body>
+</html>
