@@ -5,5 +5,5 @@ clean:
 
 venv:
 	virtualenv venv
-	. venv/bin/activate; pip install -r requirements.txt
+	. venv/bin/activate; pip install -r requirements.txt; pygmentize -S default -f html > static/pygment.css
 
